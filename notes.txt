@@ -1,0 +1,6 @@
+1) Create virtual env and activate it
+2) Install packages
+    pip install flask ariadne flask-sqlalchemy
+3) Create graphql schema file: schema.graphql
+4) Now we need to tell Flask where to find the app application instance. We do that by setting the environment variable FLASK_APP to the name of the top-level Python file that has the app, which in our case is main.py. Set it as follows:
+    set FLASK_APP=main.py
